@@ -7,25 +7,30 @@ body {
 .horizontal-line-header {
     height: 2px;
     display: flex;
-    width: 35%;
+    width: 0%;
     align-items: center;
     justify-content: center;
     border-radius: 45%;
-    margin-left: 510px;
+    margin-left: 950px;
     background: #bc985e;
+    transition:  width infinite 0.2s ease-out 100ms;
 }
+.horizontal-line-header:{
 
+}
 .container-header-list {
     display: grid;
     grid-template-columns: repeat(4, 150px);
     grid-template-rows: auto;
+    justify-content: end;
+    align-items: flex-end;
 }
 
 .grid-item-list {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 500px;
+    margin-bottom: 10px;
     cursor: pointer;
     text-decoration: none;
 }
