@@ -1,0 +1,42 @@
+
+.container-header-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 12px solid black;
+}
+
+.grid-item-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#pet-cad-default:link{
+    text-decoration: none;  
+}
+#pet-cad-default:active{
+    text-decoration: none;  
+}
+#pet-cad-default:visited{
+    text-decoration: none;  
+}
+#pet-cad-default:hover{
+    text-decoration: none;
+    color: #d8d8d8
+}
+
+h1 {
+    grid-column: 2;
+    grid-row: 2;
+    font-weight: 600;
+}
+.line-breaker{
+    width: 300px;
+    border-radius: 40%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
